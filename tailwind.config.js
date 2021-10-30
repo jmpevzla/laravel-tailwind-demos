@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: [],
@@ -16,12 +16,22 @@ module.exports = {
     // },
     extend: {
       colors: {
-        teal: colors.teal
-      }
+        teal: colors.teal,
+        orange: colors.orange,
+        primary: {
+          DEFAULT: "#24292E",
+        },
+      },
+      /*boxShadow: {
+        default: "0px 10px 20px rgba(150, 150, 187, 0.1)",
+      },
+      fontSize: {
+        "2rem": "2rem",
+      },*/
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
