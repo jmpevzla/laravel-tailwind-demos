@@ -1,6 +1,8 @@
 //require('./bootstrap');
 import "./bootstrap"
 import { createApp } from "vue"
-import App from "./App.vue"
+// import App from "./App.vue"
+//import FormSection from './FormSection.vue';
+import FormCssTricks from './FormCssTricks.vue';
 
-createApp(App).mount('#app')
+createApp(FormCssTricks).mount('#app')
